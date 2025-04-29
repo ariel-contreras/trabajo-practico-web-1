@@ -25,11 +25,11 @@
   - tabla para elegir el evento
 
 ## tareas para hacer
-- [] header
-- [] menu desplegable
-- [] footer
-- [] eleccion de colores dark/ligth
-- [] mock de eventos ficticios
-- [] form
-- [] captcha random
+- [ ] header
+- [ ] menu desplegable
+- [ ] footer
+- [ ] eleccion de colores dark/ligth
+- [ ] mock de eventos ficticios
+- [ ] form
+- [ ] captcha random
 - [X] hacer el github :3
