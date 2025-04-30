@@ -15,21 +15,27 @@
 - casa de eventos dedicada a organizarlos y vender entradas para sus distintas sedes
 ### paginas
 - home
-  - carrusel de eventos que queremos promocionar
-  - lista de promos
+  - carrusel de eventos mas importantes
+  - lista de proximos eventos
 - contacto
   - FAQ
   - mision vision
   - formulario para ser parte del equipo
-- Compra tu entrada
-  - tabla para elegir el evento
+- Calendario
+  - tabla dias en funcion de horario (imagen, banda, horario,boton de compra)
+  - formulario
 
 ## tareas para hacer
 - [ ] header
-- [ ] menu desplegable
-- [ ] footer
+- [ ] tabla calendario
+- [ ] carrusel
 - [ ] eleccion de colores dark/ligth
 - [ ] mock de eventos ficticios
 - [ ] form
 - [ ] captcha random
+- [ ] menu desplegable
 - [X] hacer el github :3
+- [x] FAQ
+- [x] quienes somos
+- [x] nav
+- [x] footer
