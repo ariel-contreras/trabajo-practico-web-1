@@ -4,27 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendario</title>
+    <link rel="stylesheet" href="../Css/barnav.css">
+    
 </head>
 <body>
+    
     <header>
+        <div class="titulo">
+            <img src="../Media/trifuerza.png" alt="logotrifuerza">  
+            <h1>El Cairo</h1> 
+        </div>
         
+        <nav>
+            <svg class="abre" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="quienes_somos.html">Quienes somos</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            
+                
+            </ul>
+        </nav>
+
     </header>
     
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="calendario.html">Calendario</a></li>
-            <li><a href="quienes_somos.html">Quienes somos</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            
-
-        </ul>
-    </nav>
-    
     <main>
-
+        <table>
+       
+            <tr>
+              
+              <td ><h3>Espacio disponible</h3><p>viernes 12:00</p><button>Solicita el espacio</button></td>
+              <td ><h3>Expo tecno</h3><p>Sabado 11:00</p> <button>Obtener entradas</button></td>
+              <td ><h3>Expo comida</h3> <p>Domingo 12:00</p> <button>Obtener entradas</button></td>
+            </tr>
+            <tr>
+             
+              <td ><h3>Trueno</h3><p>viernes 19:00</p><button>Obtener entradas</button></td>
+              <td ><h3>Boxeo amateur</h3><p>sabado 18:00</p><button>Obtener entradas</button></td>
+              <td ><h3>Turf</h3><p>Domingo 19:00</p><button>Obtener entradas</button></td>
+            </tr>
+            
+            <tr>
+                
+                <td ><h3>Dukki</h3><p>viernes 21:00</p><button>Obtener entradas</button></td>
+                <td ><h3>Boxeo profesional</h3> <p>Sabado 21:30</p><button>Obtener entradas</button></td>
+                <td ><h3>Los Calligari</h3><p>Domingo 20:30</p><button>Obtener entradas</button></td>
+              </tr>
+         </table>
     </main>
     
+
+
+
+    <section>
+        <form>
+            <label for="name"> Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="email">Mail:</label><br>
+            <input type="email" name="" id=""><br>
+    
+            <label for="Telefono">Telefono:</label><br>
+            <input type="text" name="" id=""><br>
+            
+    
+            <div class="capcha"> <p>Aas12FS2</p></div> 
+            <label for="name"> ingrese captcha:</label><br>
+            <input type="text" id="capcha" name="capcha"><br>
+    
+            <button type="button">Enviar</button>
+          </form>
+    </section>
+
+
     <footer>
         <ul>
             <li><a href=""> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATtJREFUSEu1lY0RwiAMhdNJ1EnUSdRJ1EnUSdRJdBT7esA9aALhznLn0Qrke/lpGGThMSxsXzyAnYhsRQQzft9xfoX5HZ5NnTXAWkRuwWjNUQD3ATjbZwHO485LR/gAuYvItTyjAbzGYRRe8oCoDFICcOBTUQ6jMAC1cbAgrJ84LyXg2Yj5Rol16TEg2DcNBhxDUi0HoBrq4oC3B6ouPoeko9IyQCv2HN+WmLSXPUBJ4qA1oD7GviUG6uFF5gGSW1YFw3oAKQ/sgQbIEma4ZhXGZJsB2kYPQBOWCoIBWlxjG4AYPHMFxWftu1EBaGTw4h9JTvnq+dC8SU4VVOYA77VW4QWkj0wD4D+rxj2AZrOL8dcgLQCvpzz2XDgWYNZBuUo8V2Zsanw9oqWsxq75sG6yCPEAKpXbXloc8AOPHlEZbVZaMAAAAABJRU5ErkJggg=="/></a></li>
@@ -34,5 +88,7 @@
         </ul>
 
     </footer>
+
+    <script src="../Js/javascrpt.js"></script>
 </body>
 </html>
