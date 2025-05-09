@@ -1,0 +1,68 @@
+* {margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: none ;
+}
+
+
+/* esta es para toggle la barra del menu */
+.abrir {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.titulo img {
+   max-width: 5rem;
+}
+
+
+
+
+
+@media screen and (min-width: 550px) {
+
+    
+
+    header {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+    
+    }
+   
+    .titulo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2rem;
+        list-style-type: none;
+    }
+    
+    header nav svg {
+        display: none;
+    }
+}
